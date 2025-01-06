@@ -1,0 +1,57 @@
+# Windowsシステムファイルを無視
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Templates/
+スタート メニュー/
+NTUSER.DAT*
+
+# VSコード関連のファイルを無視
+.vscode/
+*.lnk
+
+# Python関連のファイルを無視
+*.pyc
+__pycache__/
+venv/
+
+# その他不要なファイルやディレクトリを無視
+*.log
+.DS_Store
+*.zip
+*.exe
+Downloads/
+Saved Games/
+Searches/
+Videos/
+
+# OSのシステムファイルを無視
+*.DS_Store       # macOSの不要ファイル
+Thumbs.db        # Windowsの不要ファイル
+desktop.ini      # Windowsの設定ファイル
+
+# Python仮想環境を無視
+venv/
+*.pyc
+__pycache__/
+
+# VS Codeの設定ファイルを無視
+.vscode/
+
+# 圧縮ファイルやログファイルを無視
+*.zip
+*.log
+
+# Gitに不要なフォルダを無視
+Downloads/
+Saved Games/
+Searches/
+Videos/
+
+# その他プロジェクトごとに不要なファイルやフォルダ
+node_modules/
